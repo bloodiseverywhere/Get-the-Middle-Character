@@ -5,3 +5,5 @@ def get_middle(s):
     else:
         c = int(len(s) / 2)
         return s[c]
+    
+print(get_middle('middle'))
